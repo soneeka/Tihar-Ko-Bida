@@ -7,28 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/style.css" />
 </head>
-<body>
+<body> 
+    <form action="/signup" method="POST">
     <div class="login-box">
         <h1>Sign Up</h1>
         <div class="textbox">
-                <input type="text" placeholder="Full Name" name="">
+                <input type="text" placeholder="Full Name" name="fullname">
         </div>
         <div class="textbox">
-                <input type="text" placeholder="Email" name="">
+                <input type="text" placeholder="Email" name="email">
         </div>
         <div class="textbox">
-            <input type="text" placeholder="Username" name="">
+            <input type="text" placeholder="Username" name="username">
         </div>
 
         <div class="textbox">
-                <input type="text" placeholder="Password" name="">
+                <input type="text" placeholder="Password" name="password">
         </div>
         <div class="textbox">
-                <input type="text" placeholder="Re Password" name="">
+                <input type="text" placeholder="Re Password" name="repassword">
         </div>
 
         <input type="button" class="btn" name="" value="Sign up">
 
     </div>
+</form>
 </body>
 </html>
