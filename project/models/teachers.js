@@ -9,4 +9,5 @@ const TeacherSchema = mongoose.Schema({
     }
 });
 
+
 module.exports = mongoose.model('Teachers', TeacherSchema)
